@@ -9,11 +9,11 @@
 <p>Onset detection is done by calculating spectral energy change in consecutive buffers. The FFT implementations in TI C55x DSP processor are utilized for this. Pitch detection is done in time domain by detecting candidate peaks in the audio buffer and finding the difference between their indices. Both onset and pitch detection require minimal calculation and can run real time on a constrained fixed point processor. They are pretty accurate. The signal flow diagram is shown below </p>
 
 <p align = "center">
-<img src = "images/sustain_pedal.svg"></img>
+<img width = "300" src = "images/sustain_pedal.svg"></img>
 </p>
 
 <p>Here is a picture of the setup. The button on the extreme right with the LED turns sustain on and off. The potentiometer to the left of the on/off button adjusts a threshold for onset detection.</p>
 
 <p align = "center">
-<img src = "images/controller.jpg"></img>
+<img width = "400" src = "images/controller.jpg"></img>
 </p>
